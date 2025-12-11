@@ -1,0 +1,7 @@
+s = input("Введіть рядок: ")
+
+vowels = "aeiouаеєиіїоуюяAEIOUАЕЄИІЇОУЮЯ"
+count = sum(1 for ch in s if ch in vowels)
+
+print("Перевернутий рядок:", s[::-1])
+print("Кількість голосних:", count)
