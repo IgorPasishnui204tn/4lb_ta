@@ -1,0 +1,12 @@
+dob = 1
+has_even = False
+
+while True:
+    n = int(input("Введіть число (0 - стоп): "))
+    if n == 0:
+        break
+    if n % 2 == 0:
+        dob *= n
+        has_even = True
+
+print("Добуток парних:", dob if has_even else 0)
