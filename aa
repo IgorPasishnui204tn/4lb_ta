@@ -1,0 +1,6 @@
+n = int(input("Введіть число: "))
+
+if n % 2 == 0 and n % 5 != 0:
+    print("Так")
+else:
+    print("Ні")
